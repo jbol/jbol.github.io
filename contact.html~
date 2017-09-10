@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mikes Pizza website">
+    <meta name="author" content="Johnny Joints" >
+
+    <title>Contact - Mike's Pizza</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Mike's Pizza custom CSS -->
+    <link href="css/mikes-pizza.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="brand"><img src="img/logo.png"></img></div>
+    <div class="address-bar">14721 Mono Way | Sonora, California 95370
+        <p><a href="tel:1-209-532-1097" rel="float-shadow" class="button float-shadow">(209) 532-1097</a></p></div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Mike's Pizza<p text-align="center"><a href="tel:1-209-532-1097">(209) 532-1097</a></p></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="about.html">About</a>
+                    </li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="menu.html#Pizzas">Pizzas</a></li>
+                        <li><a href="menu.html#Sandwiches">Sandwiches</a></li>
+                        <li><a href="menu.html#Appetizers">Appetizers</a></li>
+                        <li><a href="menu.html#Salad">Salad Bar</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <h2 class="intro-text text-center">Contact <strong>Mike's Pizza</strong>
+                    </h2>
+                </div>
+                <div class="col-md-8">
+                    <!-- Embedded Google Map using an iframe - to select your location find it on Google maps and paste the link as the iframe src. If you want to use the Google Maps API instead then have at it! -->
+                    <iframe width="100%" height="430" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+                    src="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=14721%2BMono%2BWay,%2BSonora,%2BCalifornia%2B95370&amp;aq=&amp;sll=37.269174,-119.306607&amp;sspn=15.419118,14.897461&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=14721+Mono+Way,+Sonora,+California+95370&amp;ll=37.976815,-120.321407&amp;spn=0.027063,0.036478&amp;z=14&amp;output=embed">
+                    </iframe><br /><small>
+                    <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=14721%2BMono%2BWay,%2BSonora,%2BCalifornia%2B95370&amp;aq=&amp;sll=37.269174,-119.306607&amp;sspn=15.419118,14.897461&amp;t=m&amp;ie=UTF8&amp;hq=&amp;hnear=14721+Mono+Way,+Sonora,+California+95370&amp;ll=37.976815,-120.321407&amp;spn=0.027063,0.036478&amp;z=14" 
+                    style="color:black;text-align:left">View Larger Map</a>
+                    </small></div>
+                <div class="col-md-4">
+                    <p><strong>Phone: </strong><a href="tel:1-209-532-1097"><span style="color:black;">(209) 532-1097</span></a>
+                    </p>
+                    <p><strong>Email: </strong>pizzaguy@sonic.net
+                    </p>
+                    <p><strong>Address: </strong><br>14721 Mono Way<br>Sonora, CA <br>95370 USA
+                    </p>
+						<p><strong>Delivery: </strong><br>We deliver up to 5 miles away from Mikes Pizza of Sonora
+						and require a minimum subtotal of $20 for deliveries.
+						<br>$3 charge for all deliveries
+						</p>
+						<p>
+						<strong>Hours of operation: </strong><br> Sunday - Thursday: 11 a.m. - 9 p.m.<br>
+						Friday & Saturday: 11 a.m. - 10 p.m.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <h2 class="intro-text text-center">Contact <strong>form</strong>
+                    </h2>
+                    <div class="container">
+                    <form role="form">
+                        <div class="row">
+                            <div class="form-group col-lg-3">
+                                <label>Name</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-3">
+                                <label>Email Address</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-3">
+                                <label>Phone Number</label>
+                                <input type="tel" class="form-control">
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="form-group col-lg-9">
+                                <label>Message</label>
+                                <textarea class="form-control" rows="6"></textarea>
+                            </div>
+                            <div class="form-group col-lg-9">
+                                <input type="hidden" name="save" value="contact">
+                                <button type="submit" class="btn btn-default">Submit</button>
+                            </div>
+                        </div>
+                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; Mike's Pizza 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</body>
+
+</html>
